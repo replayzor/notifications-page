@@ -10,7 +10,7 @@ function NotificationList({ data }) {
 				>
 					<div className="flex items-center">
 						<img className="size-10" src={item.avatar} alt="" />
-						<h4 className="pl-3 text-sm font-extrabold">
+						<h2 className="pl-3 text-sm font-extrabold">
 							<span className="hover:cursor-pointer hover:text-primary-blue">
 								{" "}
 								{item.name}
@@ -32,7 +32,7 @@ function NotificationList({ data }) {
 									<span className="inline-block w-2 h-2 ml-2 align-middle bg-red-500 rounded-full"></span>
 								)}
 							</span>
-						</h4>
+						</h2>
 
 						{item.picture && (
 							<img
